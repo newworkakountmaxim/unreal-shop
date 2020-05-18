@@ -1,0 +1,19 @@
+.tip-wrapper{
+    padding:100px 0;
+    height:100%;
+}
+.tip-content{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding:0 10px
+}
+
+.tip-content .coming-soon {
+    color:#fff;
+}
+
+.tip-wrapper a, .tip-wrapper a:hover{color:#fff;text-decoration:none;text-transform:uppercase; font-size:20px;padding:10px 15px; border:2px solid #fff; border-radius:5px}
+	.tip-title{text-transform:uppercase; font-size:24px;color:#fff;text-align:center}
+	.tip-buttons{display:flex;justify-content:space-around;padding:20px 0}
