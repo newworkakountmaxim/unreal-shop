@@ -4,11 +4,11 @@
  */
 get_header(); ?>
 
-    <div class="tip-wrapper">
-        <div class="tip-content">
-            <div class="coming-soon"><img src="<?php echo get_template_directory_uri().'/img/skoro.png';?>" alt=""></div>
-        </div>
-    </div>
+<!--    <div class="tip-wrapper">-->
+<!--        <div class="tip-content">-->
+<!--            --><?php //the_post(); the_content();?>
+<!--        </div>-->
+<!--    </div>-->
 
 <?php
 get_footer();
