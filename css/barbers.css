@@ -1,0 +1,108 @@
+.barbers-page-wrapper{
+    padding: 100px 10%;
+    height: 100%;
+}
+
+.barbers-title{
+    text-align: center;
+    color:#fff;
+    font-size:24px
+}
+.barbers-subtitle{
+    text-align: center;
+    color:#fff;
+    padding:5px 10%;
+}
+.barbers-subtitle p{
+    margin:10px 0;
+    font-size:14px
+}
+
+
+.barbers-content-slider{
+    height:100%
+}
+.barbers-content-slider .slick-next, .barbers-content-slider .slick-prev{
+    position: absolute;
+    cursor: pointer
+}
+
+.slick-slider{
+    max-height:100%!important;
+    height:100%!important;
+}
+
+.barbers-content-slider .slick-next{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    bottom: 0;
+    background: rgba(105, 105, 105, 0.5607843137254902);
+    border: none;
+    border-radius: 0;
+    width:170px;
+    outline:none!important;
+    padding:0;
+}
+
+.barbers-content-slider .slick-prev{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    z-index: 1;
+    bottom: 0;
+    background: rgba(105, 105, 105, 0.5607843137254902);
+    border: none;
+    border-radius: 0;
+    width:170px;
+    outline:none!important;
+    padding:0;
+}
+
+@media screen and (max-width:1400px){
+    .barbers-content-slider .slick-prev, .barbers-content-slider .slick-next{
+        width:100px;
+    }
+}
+@media screen and (max-width:768px){
+    .barbers-content-slider .slick-prev, .barbers-content-slider .slick-next{
+        width:80px;
+    }
+}
+@media screen and (max-width:480px){
+    .barbers-content-slider .slick-prev, .barbers-content-slider .slick-next{
+        width:60px;
+    }
+    .barbers-page-wrapper{
+        padding:100px 5%;
+    }
+}
+
+.barber-item{
+    position: relative;
+    height:100%;
+    outline:none!important
+}
+.barber-item:hover .barber-item-hover{
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    font-size:14px;
+    color:#fff;
+}
+.barber-item:hover .barber-item-title{
+    display: none;
+}
+.barber-item-title{
+    position: absolute;
+    bottom:15%;
+    right:0;
+    background: rgba(0, 0, 0, 0.42);
+    color:#fff
+}
+.barber-item-hover{
+    display:none
+}

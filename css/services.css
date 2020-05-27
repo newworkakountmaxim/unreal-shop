@@ -1,0 +1,58 @@
+.service-page-wrapper{
+    padding: 100px 5%;
+    height: 100%;
+}
+
+.service-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.service-content-top{
+    height:15%
+}
+.service-title{
+    text-align: center;
+    color:#fff;
+    font-size:24px
+}
+.service-subtitle{
+    text-align: center;
+    color:#fff;
+    padding:5px;
+}
+.service-subtitle p{
+    margin:10px 0;
+    font-size:14px
+}
+
+.service-content-bottom{
+    height:85%
+}
+
+.service-item{
+    width:22%;
+    margin:10px 1.5%;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.service-item-title{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
+
+.service-item-prices{
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
